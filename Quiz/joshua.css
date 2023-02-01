@@ -1,13 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
     background-image: url(https://cdn.dribbble.com/userupload/2767203/file/original-168dcf7fbab12e47ebf83d020aaf11e0.gif?compress=1&resize=1024x768);
     background-repeat: no-repeat;
-    background-size: 1920px 1010px;
+    background-size: 100%;
     background-position: center;
+    display: block;
+    
+
     
 }
 
 .body {
-
+  
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
