@@ -36,3 +36,7 @@ li a {
 .blue:hover {
     background-color: blue;
 }
+
+.navbar1 {
+    font-family: Arial;
+}
