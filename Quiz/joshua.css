@@ -106,24 +106,58 @@ button:hover {
 }
 
 .red:hover {
-    background-color: red;
+    background-color: #ce7d68;
 }
 
 .blue:hover {
-    background-color: blue;
+    background-color: #ce7d68;
 }
 
 .green:hover {
-    background-color: rgb(0, 193, 0);
+    background-color:#ce7d68;
 }
 
 .navbar1 {
     font-family: Arial;
 }
 
-.navbar1 {
-    font-family: Arial;
+.nav .icon {
+    display: none;
 }
+
+@media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
+
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav .responsive {
+        position: relative;
+    }
+
+    .nav .responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav .responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+
+    .titel{
+      text-align: center;
+      color: white;  
+    }
 
 
 
