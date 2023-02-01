@@ -10,14 +10,11 @@ html{
     background-size: 100%;
     background-position: center;
     display: block;
-    
-
-    
 }
 
 .body {
   
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,27 +102,17 @@ button:hover {
     text-decoration: none;
 }
 
-.red:hover {
-    background-color: red;
-}
-
-.blue:hover {
-    background-color: blue;
-}
-
-.green:hover {
-    background-color: rgb(0, 193, 0);
+.red:hover, .blue:hover {
+    background-color: #ce7d68;
 }
 
 .navbar1 {
     font-family: Arial;
 }
 
-.navbar1 {
-    font-family: Arial;
+.red, .blue {
+    margin-top: 12px;
 }
-
-
 
 
    

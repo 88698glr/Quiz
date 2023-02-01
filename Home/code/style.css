@@ -44,7 +44,7 @@ li a {
     background-color: blue;
 }
 
-ul {
+.navbar1 {
     font-family: Arial;
 }
 
@@ -79,4 +79,8 @@ ul {
     display: flex;
     justify-content: center;
     font-family: Arial;
+}
+
+.red, .blue {
+    margin-top: 12px;
 }

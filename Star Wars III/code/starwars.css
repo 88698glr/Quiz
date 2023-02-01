@@ -48,10 +48,6 @@
     background-color: blue;
 }
 
-.green:hover {
-    background-color: rgb(0, 193, 0);
-}
-
 .navbar1 {
     font-family: Arial;
 }
@@ -117,4 +113,8 @@
 
     button:hover {
         background-color: blue;
+    }
+
+    .red, .blue {
+        margin-top: 12px;
     }
